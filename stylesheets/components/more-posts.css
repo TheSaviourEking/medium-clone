@@ -1,0 +1,100 @@
+.more-posts {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1rem;
+}
+.more-posts .thumbnail-posts {
+    flex-basis: 30%;
+}
+.more-posts .cards {
+    grid-column: 1/ span 7;
+}
+.more-posts aside {
+    grid-column: 8/-1;
+    padding: 2rem;
+}
+
+.more-posts .card {
+    flex-basis: 100%;
+    align-items: center;
+    gap: 1rem;
+}
+.more-posts .card > div:first-child {
+    opacity: 1;
+    display: flex;
+    flex-flow: column;
+    gap: 0.4rem;
+    font-size: 1rem;
+    flex-basis: 70%;
+}
+.more-posts .card > div:first-child > div:first-child {
+    display: flex;
+}
+.more-posts .card > div:first-child > div:last-child {
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.7;
+
+    span {
+	font-size: 12px;
+	padding: 0.5rem 0.2rem;
+
+	a {
+	    border-radius: 0.8rem;
+	    background-color: #f2f2f2;
+	    padding: 0.5rem 0.5rem;
+	}
+    }
+}
+
+.more-posts .author-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+
+.star, .bookmark-icon {
+    width: 2rem;
+}
+svg {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.more-posts .details {
+    display: flex;
+    align-items: center;
+    
+    div {
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+/* aside */
+.more-posts aside > div ul:first-of-type {
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+
+    li {
+	/* flex-basis: 30%; */
+	width: fit-content;
+	padding: 0.5rem;
+	border-radius: 0.4rem;
+	background-color: #f2f2f2;
+    }
+}
+.more-posts aside > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.more-topics {
+    margin-bottom: 1rem;
+    color: #349632;
+}
+
