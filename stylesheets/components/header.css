@@ -3,6 +3,13 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: var(--color-primary);
+    position: sticky;
+    top: 0;
+}
+
+.heading-section {
+    background-color: red;
+    position: relative;
 }
 .logo {
     width: 10rem;

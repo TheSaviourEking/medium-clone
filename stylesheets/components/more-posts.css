@@ -2,6 +2,9 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 1rem;
+
+    position: sticky;
+    top: 0;
 }
 .more-posts .thumbnail-posts {
     flex-basis: 30%;
