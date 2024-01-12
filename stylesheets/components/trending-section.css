@@ -45,6 +45,7 @@
 }
 .author {
     gap: 1rem;
+    align-items: center;
 }
 .author-title {
     font-weight: 600;
